@@ -1,0 +1,312 @@
+{{< CommonMetaTags}}
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta id="Meta-lang" http-equiv="content-language" content="{{CurrentLang.IsoLang}}" data-date-format="{{JsDateFormatForBe}}">
+{{{PixelFacebook}}}
+{{{GoogleTagManagerHead}}}
+{{/CommonMetaTags}}
+
+{{< FaviconTags}}
+<link rel="shortcut icon" type="image/x-icon" href="{{Url}}/{{FaviconName}}" />
+{{/FaviconTags}}
+
+{{< CommonStylesheets}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="{{TitlePoliceImportUrl}}" rel="stylesheet">
+<link href="{{TextPoliceImportUrl}}" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@flaticon/flaticon-uicons/css/all/all.css">
+<link rel="stylesheet" type="text/css" href="https://static.elloha.com/webgen/css/line-awesome/line-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://static.elloha.com/webgen/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://static.elloha.com/webgen/css/fa-brands.min.css">
+<link rel="stylesheet" type="text/css" href="https://static.elloha.com/webgen/css/jquery-ui.min.css">
+<link rel="stylesheet" type="text/css" href="https://static.elloha.com/webgen/css/bootstrap/bootstrap-min.css">
+<link rel="stylesheet" type="text/css" href="https://static.elloha.com/webgen/css/owl.carousel.2.3.4.min.css">
+<link rel="stylesheet" type="text/css" href="https://static.elloha.com/webgen/css/owl.theme.default.2.3.4.min.css">
+<link rel="stylesheet" type="text/css" href="https://static.elloha.com/webgen/css/jquery-ui.min.css">
+<link rel="stylesheet" type="text/css" href="https://static.elloha.com/webgen/css/lightgallery.min.css">
+<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-daterangepicker/3.0.5/daterangepicker.css">
+<link rel="stylesheet" type="text/css" href="{{Url}}/css/common.min.css?v={{TemplateName}}_{{CacheVar}}">
+<link rel="stylesheet" type="text/css" href="{{Url}}/css/elloha-template-36.min.css?v={{TemplateName}}_{{CacheVar}}">
+<link rel="stylesheet" type="text/css" href="{{Url}}/css/custom.css?v={{TemplateName}}_{{CacheVar}}">
+{{/CommonStylesheets}}
+
+{{< CommonScripts}}
+<script type="text/javascript" src="https://static.elloha.com/webgen/js/jquery-2.2.4.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://static.elloha.com/webgen/js/plugins.min.js"></script>
+<script type="text/javascript" src="https://static.elloha.com/webgen/js/bootstrap/bootstrap-min.js"></script>
+<script type="text/javascript" src="https://static.elloha.com/webgen/js/owl.carousel.2.3.4.min.js"></script>
+<script type="text/javascript" src="https://static.elloha.com/webgen/js/mandrill/mandrill.min.js"></script>
+<script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.core.js" crossorigin async data-callback="initMapKit" data-libraries="map" data-initial-token="{{TokenMapKit}}"></script>
+<script type="text/javascript" src="https://static.elloha.com/webgen/js/skycons.min.js"></script>
+<script type="text/javascript" src="https://static.elloha.com/webgen/js/lightgallery-all.min.js"></script>
+<script type="text/javascript" src="{{Url}}/js/config.js?v={{Template}}_{{CacheVar}}"></script>
+<script type="text/javascript" src="https://static.elloha.com/webgen/js/jquery.countdown.min.js"></script>
+<script type="text/javascript" src="https://static.elloha.com/webgen/js/jquery.fittext.min.js"></script>
+<script type="text/javascript" src="https://static.elloha.com/webgen/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="https://static.elloha.com/webgen/js/jquery.ebcaptcha.min.js"></script>
+<script type="text/javascript" src="https://static.elloha.com/webgen/js/masonry.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-daterangepicker/3.0.5/daterangepicker.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<script type="text/javascript" src="{{Url}}/js/common.min.js"></script>
+<script type="text/javascript" src="{{Url}}/js/elloha-template-36.min.js"></script>
+<script type="text/javascript" src="https://static.elloha.com/webgen/js/newcookieconsent.min.js"></script>
+<script src="https://js.hcaptcha.com/1/api.js"></script>
+{{/CommonScripts}}
+
+{{< ScriptCalendarClick}}
+<script>
+    var onAvailableDateSelect = function () {
+        var dpWidget = window.widgetDatePicker["ConstellationWidgetContainerBE"];
+
+        if (dpWidget === null || dpWidget === undefined) {
+            return;
+        }
+
+        dpWidget.setDate(this.getMoment()._d);
+        $('#ConstellationWidgetContainerBE #BtnLaunchBooking').trigger('click');
+    };
+</script>
+{{/ScriptCalendarClick}}
+
+{{< Header}}
+<header>
+    <!-- NAV GLOBALE -->
+    <div class="first-nav">
+        <div class="content-section-first-nav">
+            <div class="logo logo-w">
+                <a class="logo-top {{^HasLogo}} logo-text{{/HasLogo}}" href="{{UrlRoot}}">
+                    {{#HasLogo}}<img src="{{LogoUrl}}" alt="{{CustomTitle}}">{{/HasLogo}}
+                    {{^HasLogo}}<span class="title">{{CustomTitle}}</span>{{/HasLogo}}
+                </a>
+            </div>
+
+            <div class="computer-nav">
+                <div class="navbar-and-icones">
+                    <nav class="navbar-big">
+                        <ul class="menu menu-computer">
+                            <li><a href="{{UrlRoot}}#section-room">{{ResourcesTemplate.discover}}</a></li>
+                            {{#HasRecommandations}}
+                            <li><a href="{{UrlAround}}">{{ResourcesTemplate.pageMenuTitle_around}}</a></li>
+                            {{/HasRecommandations}}
+                            {{#HasOptions}}
+                            <li><a href="{{UrlRoot}}#section-options">{{ResourcesTemplate.ForYourConfort}}</a></li>
+                            {{/HasOptions}}
+                            {{#HasSpecialOffers}}
+                            <li><a href="{{UrlRoot}}#section-specialoffer">{{ResourcesTemplate.pageMenuTitle_special-offers}}</a></li>
+                            {{/HasSpecialOffers}}
+                            {{#HasBookingActivated}}
+                            {{#HasGiftsActivated}}
+                            <li><a href="{{UrlRoot}}#section-gifts">{{ResourcesTemplate.GiftsTitle}}</a></li>
+                            {{/HasGiftsActivated}}
+                            {{/HasBookingActivated}}
+                            {{#HasCalendarActivated}}
+                            <li><a href="{{UrlRoot}}#section-calendar">{{ResourcesTemplate.Availability}}</a></li>
+                            {{/HasCalendarActivated}}
+                        </ul>
+                    </nav>
+
+                    <div class="icones-computer-menu">
+                        {{#HasPhoneNumberActivated}}
+                        <div>
+                            <a href="tel:{{PhoneNumber}}" class="contact-w tel-hover">
+                                <i class="las la-phone"></i>
+                            </a>
+                        </div>
+                        {{/HasPhoneNumberActivated}}
+                        {{#HasMobilePhoneNumberActivated}}
+                        <div>
+                            <a href="tel:{{MobilePhoneNumber}}" class="contact-w tel-hover">
+                                <i class="las la-mobile"></i>
+                            </a>
+                        </div>
+                        {{/HasMobilePhoneNumberActivated}}
+                        <div class="arobase-contain">
+                            <a href="{{UrlRoot}}#section-contact" class="contact-w arobase">
+                                @
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                {{#HasOtherLangs}}
+                <div class="dropdown languages">
+                    <div class="dropdown-div" data-toggle="dropdown">
+                        <i class="las la-globe"></i>
+                        <div class="current-lang flag">{{CurrentLang.IsoLang}}</div>
+                    </div>
+                    <ul class="dropdown-menu">
+                        {{#Langs}}
+                        <li><a href="{{UrlLang}}" lang="{{IsoLang}}"><div class="flag">{{IsoLang}}</div></a></li>
+                        {{/Langs}}
+                    </ul>
+                </div>
+                {{/HasOtherLangs}}
+            </div>
+        </div>
+    </div>
+
+    <!-- NAV VERSION MOBILE -->
+    <div class="mobile-nav">
+        <div class="bar-nav-contain">
+
+            <div class="bar-nav">
+
+                {{#HasPhoneNumberActivated}}
+                <div>
+                    <a href="tel:{{PhoneNumber}}" class="contact-w tel-hover">
+                        <i class="las la-phone"></i>
+                    </a>
+                </div>
+                {{/HasPhoneNumberActivated}}
+                {{#HasMobilePhoneNumberActivated}}
+                <div>
+                    <a href="tel:{{MobilePhoneNumber}}" class="contact-w tel-hover">
+                        <i class="las la-mobile"></i>
+                    </a>
+                </div>
+                {{/HasMobilePhoneNumberActivated}}
+                <div class="arobase-contain">
+                    <a href="{{UrlRoot}}#section-contact" class="contact-w arobase">
+                        @
+                    </a>
+                </div>
+                <div class="navbar-toggler">
+                    <i class="btn-menu las la-bars"></i>
+                    <i class="btn-menu las la-times d-none"></i>
+                </div>
+
+            </div>
+
+            <nav class="nav">
+
+                <div class="social-medias-and-lang">
+                    {{#HasSocialNetworks}}
+                    <div class="social-medias">
+                        {{#TikTok}}<a href="{{TikTok}}" target="_blank"><i class="fab fa-tiktok"></i></a>{{/TikTok}}
+                        {{#Facebook}}<a href="{{Facebook}}" target="_blank"><i class="lab la-facebook-f"></i></a>{{/Facebook}}
+                        {{#Twitter}}<a href="{{Twitter}}" target="_blank"><i class="lab la-twitter"></i></a>{{/Twitter}}
+                        {{#Pinterest}}<a href="{{Pinterest}}" target="_blank"><i class="lab la-pinterest"></i></a>{{/Pinterest}}
+                        {{#Youtube}}<a href="{{Youtube}}" target="_blank"><i class="lab la-youtube"></i></a>{{/Youtube}}
+                        {{#Instagram}}<a href="{{Instagram}}" target="_blank"><i class="lab la-instagram"></i></a>{{/Instagram}}
+                        {{#Vimeo}}<a href="{{Vimeo}}" target="_blank"><i class="lab la-vimeo"></i></a>{{/Vimeo}}
+                        {{#Linkedin}}<a href="{{Linkedin}}" target="_blank"><i class="lab la-linkedin-in"></i></a>{{/Linkedin}}
+                    </div>
+                    {{/HasSocialNetworks}}
+
+                    {{#HasOtherLangs}}
+                    <div class="dropdown languages">
+                        <div class="dropdown-div" data-toggle="dropdown">
+                            <div class="current-lang flag">{{CurrentLang.IsoLang}}</div>
+                        </div>
+                        <ul class="dropdown-menu">
+                            {{#Langs}}
+                            <li><a href="{{UrlLang}}" lang="{{IsoLang}}"><div class="flag">{{IsoLang}}</div></a></li>
+                            {{/Langs}}
+                        </ul>
+                    </div>
+                    {{/HasOtherLangs}}
+                </div>
+
+                <ul class="menu menu-mobile content-section">
+                    <li><a href="#section-room">{{ResourcesTemplate.discover}}</a></li>
+                    {{#HasRecommandations}}
+                    <li><a href="{{UrlAround}}">{{ResourcesTemplate.pageMenuTitle_around}}</a></li>
+                    {{/HasRecommandations}}
+                    {{#HasOptions}}
+                    <li><a href="{{UrlRoot}}#section-options">{{ResourcesTemplate.ForYourConfort}}</a></li>
+                    {{/HasOptions}}
+                    {{#HasSpecialOffers}}
+                    <li><a href="{{UrlRoot}}#section-specialoffer">{{ResourcesTemplate.pageMenuTitle_special-offers}}</a></li>
+                    {{/HasSpecialOffers}}
+                    {{#HasBookingActivated}}
+                    {{#HasGiftsActivated}}
+                    <li><a href="{{UrlRoot}}#section-gifts">{{ResourcesTemplate.GiftsTitle}}</a></li>
+                    {{/HasGiftsActivated}}
+                    {{/HasBookingActivated}}
+                    {{#HasCalendarActivated}}
+                    <li><a href="{{UrlRoot}}#section-calendar">{{ResourcesTemplate.Availability}}</a></li>
+                    {{/HasCalendarActivated}}
+                </ul>
+
+            </nav>
+        </div>
+    </div>
+</header>
+{{/Header}}
+
+{{< Footer}}
+<footer class="section-footer">
+    <div class="content-footer">
+
+        <div class="address-and-logo">
+            <div class="footer-row-address">
+                <div class="col-footer center-address">
+                    {{CustomTitle}}<br>
+                    {{AddressLine}},<br />{{PostalCode}} {{City}} - {{Country}}
+                </div>
+            </div>
+
+            <div class="footer-title-subtitle">
+                <div class="col-footer left-logo">
+                    <a class="logo-footer {{^HasLogo}} logo-text{{/HasLogo}}" href="{{UrlRoot}}">
+                        {{#HasLogo}}<img src="{{LogoUrl}}" alt="{{CustomTitle}}">{{/HasLogo}}
+                        {{^HasLogo}}<span class="title">{{CustomTitle}}</span>
+                        <span class="subtitle">{{CustomTypeOi}}</span>{{/HasLogo}}
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        {{#HasAlcoolWarning}}
+        <div class="alcool-warning">
+            <span>{{ResourcesTemplate.AlcoolWarning}}</span>
+        </div>
+        {{/HasAlcoolWarning}}
+
+        {{#HasPartners}}
+        <div class="contain-hr">
+            <hr class="footer-hr">
+        </div>
+
+        <div class="partners">
+            {{#Partners}}
+            <a href="{{UrlPartner}}" target="_blank"><img src="{{#PhotoPartner}}{{UrlMedias}}/300x200/{{IdMedia}}/{{FileNamePhoto}}{{/PhotoPartner}}" alt="{{TitlePartner}}"></a>
+            {{/Partners}}
+        </div>
+        {{/HasPartners}}
+
+        <div class="contain-hr">
+            <hr class="footer-hr">
+        </div>
+
+        <div class="legal-cgv-copy">
+            <div class="legal">
+                <a href="{{UrlLegalNotice}}">{{ResourcesTemplate.pageMenuTitle_legal-notice}}</a>
+            </div>
+
+            <div class="cgv">
+                <a href="{{UrlTermsOfSales}}">{{ResourcesTemplate.pageMenuTitle_terms-of-sales}}</a>
+            </div>
+
+            <div class="footer-copyright">
+                <div>{{ResourcesTemplate.Copyright}} {{CustomTitle}}</div>
+                <div>{{ResourcesTemplate.PoweredBy}} <a href="http://www.elloha.com/fr/" target="_blank"><img src="https://static.elloha.com/webgen/img/elloha-white.png" alt=""></a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="btn-back-tablet scroll-holder text-center">
+        <a href="javascript:" id="scroll-to-top"><i class="las la-arrow-down"></i></a>
+    </div>
+</footer>
+{{/Footer}}
