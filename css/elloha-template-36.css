@@ -1,3 +1,19 @@
+/*Variables*/
+:root {
+    --color-link: #76695C;
+    --color-btn: #141414;
+    --color-btn-txt: #F7F7F7;
+    --color-text: #000000;
+    --color-text-white: #FFFFFF;
+    --color-title: #5C473D;
+    --color-bg-1: #FCFCFC;
+    --color-bg-2: #F2F2F2;
+    --color-bg-3: #343434;
+    --color-red: #FFAB57;
+    --font-title: 'Brawler';
+    --font-text: 'Jost';
+}
+
 /****** FOR ALL ******/
 * {
     box-sizing: border-box;
